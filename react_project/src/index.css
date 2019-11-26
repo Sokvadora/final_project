@@ -130,6 +130,10 @@ position: relative;
   width: 70%
 }
 
+.user-profile{
+  padding-top: 30px
+}
+
 .card .horizontal {
   height: 200px;
 margin-top: 20px;
@@ -179,19 +183,28 @@ margin-top: 20px;
     max-height: 40%;   
  
   
-  overflow: visible
+  overflow: visible;
 }
 
 
+.modal-change-btns{
+  display: flex;
+   
+}
 
+.modal-change-btns div,.modal-change-btns button {
+  margin-left: 20px;
+ width: 150px;
+ 
+     
+}
 
+  .modal{
+    width:600px
+  }
 
-
-
-
-
-
-
+  
+ 
 
 
 

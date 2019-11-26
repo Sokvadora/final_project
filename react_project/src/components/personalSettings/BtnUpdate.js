@@ -35,7 +35,7 @@ class BtnUpdate extends Component {
     return (
         <div >
          
-         <button     onClick={this.updateProfileInfo} className="modal-close    red btn-flat" >Change Info</button>  
+         <button     onClick={this.updateProfileInfo} className="modal-close    black  btn-flat" style={{color:'white'}} >Yes</button>  
       </div>
     );
   }

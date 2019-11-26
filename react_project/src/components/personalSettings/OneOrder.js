@@ -1,23 +1,18 @@
-  import React from "react";
-import { withFirebase,useFirestoreConnect,getFirebase, firebaseConnect, populate  } from "react-redux-firebase";
-import { connect } from 'react-redux'
-import { compose } from 'redux'
-import { useSelector } from "react-redux";
+import React , { useState } from "react";
 import * as R from 'ramda'
 import { Link } from "react-router-dom"
 import Modal from './../deleteOrder/Modal'
 
-
-    const OneOrder = (props ) => {
-        const {   currentUser, usersOrders  } = props;
+ const OneOrder = (props ) => {
+    const {   currentUser, usersOrders  } = props;
+    const [visible, setVisible] = useState(4) 
+ 
     return  (<React.Fragment> 
  
        {usersOrders? (
-            usersOrders.map((usersOrder, i) => (
-             
+        usersOrders.slice(0, visible).map((usersOrder, i) => (
                 usersOrder.email === currentUser.email? (  
-                    
-                  <div className="row" key={usersOrder.id}>
+<Link to={`/services/${usersOrder.idServ}`}  key={usersOrder.id} className="row"   >             
     <div className="col s12 m12">
       <div className="card"  >
         <div className="card-content  ">
@@ -42,15 +37,17 @@ import Modal from './../deleteOrder/Modal'
         </div>
       </div>
     </div>
-  </div>
    
-          ) : ( <div style={{display:"none"}} key={usersOrder.id}></div>)
-          
-          
-        ))
-      ) : (
+  </Link>
+  ) : ( <div style={{display:"none"}} key={usersOrder.id}></div>)
+    ))
+
+    ) : (
         <h2>You have no orders yet...</h2>
-        )}
+        )} 
+        { usersOrders? (visible < usersOrders.length && (
+        <button onClick={() => setVisible(visible + 2)} type="button" style={{marginLeft:'47%'}}  className="load-more  btn-floating btn-large   waves-light red"> <i className="material-icons">expand_more</i></button>
+        )) : <div> </div>}
       </React.Fragment> )
 }
 
