@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import SignedInLinks from './SignedInLinks'
 import SignedOutLinks from './SignedOutLinks'
 import { connect } from 'react-redux'
-import { isLoaded, getFirebase } from 'react-redux-firebase'
+import { isLoaded} from 'react-redux-firebase'
 
 
 const ListItem = (props) => { 

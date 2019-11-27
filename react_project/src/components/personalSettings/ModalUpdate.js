@@ -51,7 +51,7 @@ class ModalUpdate extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <div className="change-info-btn waves-light btn black modal-trigger"  
-            data-target={userProfile.email} > Change info </div>
+            data-target={userProfile.email}  style={{ marginLeft: '0'}}> Change info </div>
           <div ref={Modal => { this.Modal = Modal; }} id={userProfile.email} className="modal">
             <div className="modal-content">
               <h4 className='header-change-info'>Change profile information</h4>

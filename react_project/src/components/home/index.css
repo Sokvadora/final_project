@@ -4,3 +4,41 @@
     color: red;
 }
 
+.beauty{
+    font-family: "Playfair Display SC",Arial,Helvetica,sans-serif;
+    color: white;
+    margin-left: 70px;
+}
+
+.life{
+    font-family: "Playfair Display SC",Arial,Helvetica,sans-serif;  
+    color: red;
+    margin-left: 100%;
+ 
+}
+
+.content-image{
+    position: relative;
+}
+
+.salon-name{
+    display: flex;
+    position: absolute;
+    top:30%
+}
+
+.card-home{
+    width:300px;
+    height: 300px;
+    margin-bottom: 40px;
+     
+}
+ 
+.card-home span{
+    font-family: "Playfair Display SC",Arial,Helvetica,sans-serif;
+    text-align: center;  
+}
+
+.card-home p{
+    text-align: justify;  
+}

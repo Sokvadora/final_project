@@ -5,10 +5,10 @@ import Modal from './../deleteOrder/Modal'
 
 const OneOrder = (props) => {
   const { currentUser, usersOrders } = props;
-  const [visible, setVisible] = useState(4)
+  const [visible, setVisible] = useState(2)
 
   return (<React.Fragment>
-
+{  console.log(usersOrders)  }
     {usersOrders ? (
       usersOrders.slice(0, visible).map((usersOrder, i) => (
         usersOrder.email === currentUser.email ? (
@@ -46,6 +46,8 @@ const OneOrder = (props) => {
     ) : (
         <h2>You have no orders yet...</h2>
       )}
+
+
     {usersOrders ? (visible < usersOrders.length && (
       <button onClick={() => setVisible(visible + 2)} type="button" className="order-load-more  btn-floating btn-large   waves-light red"> <i className="material-icons">expand_more</i></button>
     )) : <div> </div>}

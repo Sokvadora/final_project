@@ -4,7 +4,7 @@ import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import { connect } from 'react-redux'
 import { withRouter } from "react-router-dom"
-import { newApplication, newAppOrdertoUser } from '../../actions/applicationActions'
+import { newApplication} from '../../actions/applicationActions'
 import { compose } from 'redux'
 
 
@@ -74,12 +74,12 @@ class CheckInBtnModal extends Component {
     ) : (
         <React.Fragment>
           <span><b>First Name:</b></span>
-          <input type='text' id='firstName' className="validate" required 
-          pattern='/[^\s]/' aria-required="true" placeholder='firstName' onChange={this.handleChange} />
+          <input type='text' id='firstName'  required 
+          className="validate" aria-required="true" placeholder='firstName' onChange={this.handleChange} />
           <div>
             <span><b>Last Name:</b></span>
             <input type='text' id='lastName' placeholder='lastName' 
-            className="validate" required pattern='/[^\s]/' aria-required="true"
+             required className="validate" aria-required="true"
              onChange={this.handleChange} />
           </div>
           <div>
@@ -126,7 +126,7 @@ class CheckInBtnModal extends Component {
             </div>
             <div className="modal-footer">
               <input type="submit" className="new-order-btn-submit modal-close black btn-flat" 
-              value="Submit" />
+              style={{marginRight: '20px'}} value="Submit" />
               <div className="new-order-btn-close  modal-close red btn-flat">Cancel</div>
             </div>
           </div>

@@ -14,9 +14,18 @@
 
 .info-serv h1{
     margin:0;
-    padding: 0  
+    padding: 0; 
+    
 }
 
 .card-content{
     padding :0;
+}
+
+.one-serv-content{
+    padding: 20px;
+}
+
+.price-btn{
+    padding-bottom: 200px
 }

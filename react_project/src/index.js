@@ -13,7 +13,7 @@ import routes from './routes/routes'
 import { createFirestoreInstance, getFirestore } from 'redux-firestore'
 import { ReactReduxFirebaseProvider, getFirebase } from 'react-redux-firebase'
 import firebase from './config/fbConfig'
-
+ 
 
 const composeEnhancers = composeWithDevTools({
   realtime: true
@@ -28,6 +28,8 @@ const store = createStore(
   composeEnhancers(applyMiddleware(...middlewares))
 )
 
+ 
+ 
 
 const rrfProps = {
   firebase,

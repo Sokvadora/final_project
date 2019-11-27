@@ -38,12 +38,12 @@ class SignUp extends Component {
             <div className="input-field">
               <label htmlFor="firstName">First name</label>
               <input type="text" id="firstName" name="firstName" className="validate"
-                required pattern='/[^\s]/' aria-required="true" onChange={this.handleChange} />
+                required   aria-required="true" onChange={this.handleChange} />
             </div>
             <div className="input-field">
               <label htmlFor="lastName">Lastname</label>
               <input type="text" id="lastName" name="lastName" className="validate"
-                required pattern='/[^\s]/' aria-required="true" onChange={this.handleChange} />
+                required   aria-required="true" onChange={this.handleChange} />
             </div>
             <div className="input-field">
               <label htmlFor="phone">Phone</label>
