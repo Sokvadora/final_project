@@ -6,7 +6,7 @@ class About extends React.Component {
         return (
             <React.Fragment>
                 <div className="about">  
-                 <h2> About us</h2>
+                 <h1> ~ Welcome ~</h1>
                 </div>
                
             </React.Fragment>

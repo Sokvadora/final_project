@@ -1,0 +1,31 @@
+nav{
+  margin-bottom: 40px;
+}
+
+.header{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.logOut-nav{
+    cursor: pointer; 
+}
+
+.user-profile-nav{
+    color: white ;
+    font-family: Great Vibes, cursive
+}
+
+.list-item{
+    margin-left: 10px;
+  }
+  
+  .list-item a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .list-item a.active{
+    color: red
+  }
+   
+ 

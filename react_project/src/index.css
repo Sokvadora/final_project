@@ -1,68 +1,16 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
-
 
 body{
   background: no-repeat url('./img/478729-PGE48X-287.jpg');
   background-size: cover;
-  
   font-family: 'Gothic A1', sans-serif;
   /* font-family: 'Great Vibes', cursive; 
       font-family: "Playfair Display SC",Arial,Helvetica,sans-serif
   font-family: 'Playfair Display SC', serif;*/
 }
-
+ 
 .container {
   background: white
 }
-
-.header {
-  background-color: cornflowerblue;
- margin-bottom: 40px;
-  height: 60px;
-} 
- 
-/* #nav-mobile{
-  margin-right: 230px
-} */
-
-.list-item{
-  margin-left: 10px;
-}
-
-.list-item a{
-  color: white;
-  text-decoration: none;
-}
-
-.list-item a.active{
-  color: black
-}
- 
-
-.price-btn{
-  display: flex;
- 
-  
-}
-
-.info-serv h1{
-  margin:0;
-  padding: 0  
-}
-
- 
 
 .content-place a{
   padding-left: 0;
@@ -70,61 +18,9 @@ body{
   color: black;
 }
 
-.btn-new-order{
-  /* float: right;
-  text-align: right; */
-  position: absolute;
-  right:0;
-  margin-top: 36px;
-  margin-right: 20px; 
-  
+.content-row{
+  margin-bottom: 0px;
 }
- 
-nav{
-  margin-bottom: 40px;
-}
- .price-btn{
-position: relative;
- }
-
- 
- 
-
-
-
-.profile-email span,.profile-phone span{
-  font-size: 20pt;
- 
-}
-
-
-.profile-email span:first-child, .profile-phone span:first-child{
-  font-weight: bold;
-}
-
-
-.change-info-btn{
-  /* position: absolute;
-  right: 41%; */
-  margin-left: 57%;
-  margin-top: 36px;
-  margin-right: 20px; 
-}
-
-.user-photo{
-  width: 250px;
-  align-content: center;
-    margin : 0px;;
-}
-
- 
-.user-info h2{
-  margin:0;
-  padding-left: 10%;
-  margin-bottom: 20px;
-   
-}
-
 
 .user-profile .row:first-child{
   width: 70%
@@ -134,88 +30,18 @@ position: relative;
   padding-top: 30px
 }
 
-.card .horizontal {
-  height: 200px;
-margin-top: 20px;
-
-}
-
-.card-image{
-  height: min-content;
-}
-.card-head {
-  display: flex;
-  position: relative;
-   
-}
-
-.card-content{
-  padding :0;
-}
-
-.card-order-info{
-  display: flex;
-}
-
  
 
-.card-order-info span h4, 
-.card-title h4{
-  margin:0
-}
- 
-.order-info{
-  display: inline;
-}
 
-.cart-order-info .order-date-time{
-  padding-left: 10px;
-}
- 
-.cancel-order-btn{
-  position: absolute;
-  right:0;
-  /* margin-top: 36px;
-  margin-right: 20px;  */
-} 
-
-.modal-delete-order  , .modal-content{
-    max-height: 40%;   
- 
-  
+.modal-content{
+  max-height: 40%;   
   overflow: visible;
 }
 
-
-.modal-change-btns{
-  display: flex;
-   
+.modal{
+  width:600px
 }
 
-.modal-change-btns div,.modal-change-btns button {
-  margin-left: 20px;
- width: 150px;
- 
-     
-}
-
-  .modal{
-    width:600px
-  }
-
-  
- 
 
 
 
-
-
-
-
-
-/* @media (max-width: 768px) {
-   
-  .container_6 { width:100%; } #slider { display:none;	 }
-  .intro-text { width:100%;	 } #primary { width:100%; }
-  #content .site-navigation { margin:0; }
-  .container_6 .grid_2 { width:95%; margin-right:0; } } */

@@ -1,0 +1,22 @@
+.one-service-name{
+    font-family:  Playfair Display SC, serif;
+}
+
+.one-service-info{
+    text-align:justify;
+    font-size: 12pt;
+}
+
+.price-btn{
+    position: relative;
+    display: flex;
+}
+
+.info-serv h1{
+    margin:0;
+    padding: 0  
+}
+
+.card-content{
+    padding :0;
+}

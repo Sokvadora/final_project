@@ -1,0 +1,90 @@
+.user-profile-name{
+    font-family:  Great Vibes , cursive;
+}
+.user-orders-header{
+    padding-left: 10px;
+}
+
+.user-order-name, .user-orders-header, 
+.header-change-info{
+    font-family: Playfair Display SC , serif;    
+}
+
+.order-load-more{
+    margin-left: 47%; 
+}
+
+.change-info-btn{
+    color: white;
+    width: 230px;
+    margin-left: 0;
+}
+
+.change-info-modal-close{
+    text-align: center; 
+    color:white;
+}
+
+.modal-change-btns{
+    display: flex;
+}
+  
+.modal-change-btns div,.modal-change-btns button {
+    margin-left: 20px;
+    width: 150px;    
+}
+
+.cancel-order-btn{
+    position: absolute;
+    right:0;
+} 
+
+.cart-order-info .order-date-time{
+    padding-left: 10px;
+}
+   
+.card-order-info{
+    display: flex;
+}
+  
+.card-order-info span h4, 
+.card-title h4{
+    margin:0
+}
+   
+.order-info{
+    display: inline;
+}
+
+.card-head {
+    display: flex;
+    position: relative;
+}
+
+.user-info h2{
+    margin:0;
+    padding-left: 10%;
+    margin-bottom: 20px;
+}
+
+.user-photo{
+    width: 250px;
+    align-content: center;
+    margin : 0px;;
+}
+
+.change-info-btn{
+    margin-left: 57%;
+    margin-top: 36px;
+    margin-right: 20px; 
+}
+  
+.profile-email span:first-child, 
+.profile-phone span:first-child{
+    font-weight: bold;
+}
+
+.profile-email span,
+.profile-phone span{
+    font-size: 20pt;
+  }

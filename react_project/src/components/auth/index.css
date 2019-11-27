@@ -1,0 +1,24 @@
+.sign-up-container{
+    width: 700px;
+    padding: 20px; 
+    text-align:center;
+}
+
+.sign-up-header, .sign-in-header{
+    font-family: Playfair Display SC, serif;
+}
+
+.form-sign-in{
+    
+    padding:20px;
+    text-align:center;
+    padding-bottom: 300px;
+}
+ 
+
+.sign-in-btn-login{
+    color: white; 
+    width: 200px; 
+    margin-left:80%;
+}
+

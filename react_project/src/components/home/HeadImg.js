@@ -6,8 +6,6 @@ class HeadImg extends React.Component {
             <React.Fragment>
                 <div className="content">  
                 <img src=  {headImg}  width='100%'  alt="..." />
-                {/* <span> BEAUTY</span>
-                <span> FLY</span>  */}
                 </div>
                
             </React.Fragment>

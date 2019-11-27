@@ -4,15 +4,17 @@ import { connect } from 'react-redux'
 import { signOut } from '../../actions/authActions'
 
 const SignedInLinks = (props) => {
-  const { uid } = props 
+  const { uid } = props
   return (
-    <React.Fragment> 
-      {/* //задать hover */}
-      <li className='list-item'>
-        <div role="menuitem" onClick={props.signOut} style={{ cursor: "pointer" }}>Log Out</div>
+    <React.Fragment>
+      <li className="list-item">
+        <div role="menuitem" className="logOut-nav" onClick={props.signOut}> Log Out
+        </div>
       </li>
       <li>
-        <NavLink to={`/profile/${uid}`} className='btn btn-floating black lighten-1'> {props.profile.initials} </NavLink>
+        <NavLink to={`/profile/${uid}`} className="btn user-profile-nav btn-floating red lighten-1">
+          {props.profile.initials}
+        </NavLink>
       </li>
     </React.Fragment>
   );

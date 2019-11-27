@@ -1,0 +1,9 @@
+.btn-delete-order{
+    color:white;
+     width:70px;
+}
+
+.modal-delete-order{
+  max-height: 40%;   
+  overflow: visible;
+}

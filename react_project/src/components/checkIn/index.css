@@ -1,0 +1,19 @@
+.new-order-btn-submit{
+    margin-right: 20px;
+}
+
+.new-order-btn-close, 
+.new-order-btn-submit{
+    color:white;
+}
+
+.btn-new-order{
+    position: absolute;
+    right:0;
+    margin-top: 36px;
+    margin-right: 20px; 
+}
+
+.add-order-description div{
+    margin-bottom:20px
+}

@@ -12,7 +12,7 @@ const ListItem = (props) => {
  
  
   return (
-    <nav className='nav-wrapper'>
+    <nav className='nav-wrapper'  style={{background:'black'}}>
       <div className='container'>
         <ul className='  right  '>
           <li className='list-item'><NavLink to='/home'>Home</NavLink></li>

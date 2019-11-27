@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css'
 import  HeadImg from './HeadImg';
 import { connect } from 'react-redux'
 import { useFirestoreConnect } from "react-redux-firebase";
@@ -15,8 +16,6 @@ const Home = () => {
     </App>
   )
 }
-
-
 
 const mapStateToProps = (state) => {
   return {

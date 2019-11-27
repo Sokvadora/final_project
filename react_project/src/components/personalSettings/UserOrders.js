@@ -9,7 +9,7 @@ const UserOrders = (props) => {
 
   return (
     <React.Fragment>
-      <h2 style={{ paddingLeft: '10px' }}>Your orders</h2>
+      <h2 className='user-orders-header'>Your orders</h2>
       <OneOrder  {...props} />
     </React.Fragment>
   )

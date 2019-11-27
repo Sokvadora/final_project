@@ -1,0 +1,41 @@
+/* .card-serv{
+    padding-top: 20px;
+}  */
+
+.card-action{
+    padding-bottom: 0;
+}
+
+.card-serv-name{
+    font-family:  Playfair Display SC , serif;
+}
+
+.card-content{
+    padding-top: 0 ;
+    text-align: justify; 
+}
+
+.load-more{
+    margin-left:47%;
+}
+
+.card-image{
+    height: min-content;
+}
+
+.services-card-content{
+    padding: 0;
+  }
+
+.services-card-content p{
+    margin-top: 0px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+  .card-services {
+    height: 200px;
+    width: 530px;
+    margin-top: 20px;
+    }
