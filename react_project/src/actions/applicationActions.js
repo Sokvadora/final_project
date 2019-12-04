@@ -10,7 +10,7 @@ export const newApplication = newApp => {
 
     const newDate = (newApp.date).split('.').join("")
     const mewEmail = (newApp.email).split('.').join("").split('@').join("")
-    const serviceId =  newApp.serviceId.concat(newDate)
+     
     
 
    const userId = mewEmail.concat( '_', newDate, '_', newApp.serviceId)
@@ -19,7 +19,7 @@ export const newApplication = newApp => {
       .doc(userId)
       .set({
         idServ: newApp.serviceId,
-        firstName: newApp.firstName  ,
+        firstName: newApp.firstName,
         lastName: newApp.lastName,
         email: newApp.email,
         phone: newApp.phone,

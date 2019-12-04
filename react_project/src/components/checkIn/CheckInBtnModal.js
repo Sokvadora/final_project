@@ -64,6 +64,7 @@ class CheckInBtnModal extends Component {
     const { oneService, auth } = this.props;
     const user = (auth) ? (
       <React.Fragment>
+      <div className='user-attention black'>  You can see your orders in your profile </div>
         <span><b>First name:</b></span>
         <input type='text' id='firstName' readOnly value={this.state.firstName} onChange={this.handleChange} />
         <span><b>Last name:</b></span>
@@ -73,6 +74,7 @@ class CheckInBtnModal extends Component {
       </React.Fragment>
     ) : (
         <React.Fragment>
+         <div className='user-attention black'> You can <b> sign up </b> to see your orders</div>
           <span><b>First Name:</b></span>
           <input type='text' id='firstName'  required 
           className="validate" aria-required="true" placeholder='firstName' onChange={this.handleChange} />

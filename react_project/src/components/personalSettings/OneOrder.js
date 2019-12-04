@@ -8,9 +8,8 @@ const OneOrder = (props) => {
   const [visible, setVisible] = useState(2)
 
   return (<React.Fragment>
-{  console.log(usersOrders)  }
     {usersOrders ? (
-      usersOrders.slice(0, visible).map((usersOrder, i) => (
+      usersOrders.slice(0, visible).map((usersOrder, i) => ( 
         usersOrder.email === currentUser.email ? (
           <div className="row" key={i}  >
             <div className="col s12 m12">
@@ -41,7 +40,7 @@ const OneOrder = (props) => {
               </div>
             </div>
           </div>
-        ) : (<div style={{ display: "none" }} key={usersOrder.id}></div>)
+        ) : (null)
       ))
     ) : (
         <h2>You have no orders yet...</h2>
@@ -51,6 +50,8 @@ const OneOrder = (props) => {
     {usersOrders ? (visible < usersOrders.length && (
       <button onClick={() => setVisible(visible + 2)} type="button" className="order-load-more  btn-floating btn-large   waves-light red"> <i className="material-icons">expand_more</i></button>
     )) : <div> </div>}
+
+    
   </React.Fragment>)
 }
 
